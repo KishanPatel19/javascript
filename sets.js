@@ -12,5 +12,15 @@ numbers.add(3)
 numbers.add(myArray)
 numbers.add(myArray)
 
+for(let number of numbers ){
+    console.log(number)
+}
+
 
 console.log(numbers)
+
+const newArr = [1,2,3,3,4,4,5,5]
+
+const uniqueNumbers = new Set(newArr)
+
+console.log(uniqueNumbers)
