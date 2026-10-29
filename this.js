@@ -20,7 +20,6 @@ const person3 = {
     about : personInfo
 }
 
-console.log(person1.about())
-console.log(person3.about())
-
-console.log(person2.about())
+person1.about()
+person3.about()
+person2.about()
