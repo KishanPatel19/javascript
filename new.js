@@ -8,3 +8,9 @@ CreateUser.prototype.about = function(){
 }
 const user1 = new CreateUser("Kishan", 31)
 console.log(user1)
+
+for(let key in user1){
+    if(user1.hasOwnProperty(key)){
+            console.log(key)
+    }
+}
